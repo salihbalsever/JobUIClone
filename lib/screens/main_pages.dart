@@ -47,7 +47,7 @@ class _MainPageState extends State<MainPage> {
           return Scaffold(
             resizeToAvoidBottomInset: false,
             appBar: const PreferredSize(
-                preferredSize: Size.fromHeight(100), child: AppBarComponent()),
+                preferredSize: Size.fromHeight(40), child: AppBarComponent()),
             body: _currentTabPages[currentIndex],
             bottomNavigationBar: BottomNavigationBarWidget(
               currentIndexNotifier: currentIndexNotifier,
